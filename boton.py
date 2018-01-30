@@ -1,8 +1,7 @@
 from tkinter import *
-#from star import star
+def click():
+    print('click')
 
 tk = Tk()
-#boton = Button(tk , text="hola")
-boton = Button(tk , text="hola", command = print("Apretar boton"))
-boton.pack( )
-tk.mainloop()
+btn = Button(tk, text='cick me', command=click)
+btn.pack()
